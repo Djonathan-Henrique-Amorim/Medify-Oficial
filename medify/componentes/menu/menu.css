@@ -1,0 +1,136 @@
+.body, html{
+    margin: 0px;
+    width: 20vw;
+    height: 100vh;
+    padding: 0;
+    justify-content: right;
+    overflow-x: hidden;
+}
+
+.menu{
+    color: black;
+    background-color: #ccc;
+    box-shadow:0em 0em 1.5em  black;
+    width: 18%;
+    height: 100%;
+    position: fixed;
+    margin:0;
+    overflow-y: hidden;
+    left: 0;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    overflow-x: hidden;
+}
+
+header{
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5%;
+
+}
+
+.logo{
+    height: 175%;
+    margin-top: -90px;
+    margin-left: 20px;
+}
+
+.navegadores{
+    width: 60%;
+    padding: 10px;
+    margin: 3%;
+    background-color: white;
+    border: #222 solid;
+    border-radius: 15px;
+
+
+    flex-direction: column;
+    font-size: 17.5px;
+    align-items: center;
+    justify-items: center;
+    display: flex;
+    
+}
+
+.a{
+    display: flex;
+    align-items: center;
+    
+}
+
+footer{
+    padding: 10px;
+    margin: 3%;
+    background-color: darkred;
+    border-radius: 15px;
+    color: white;
+    font-size: 17.5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    border: black solid;
+    
+}
+foote:hove{
+    background-color: darkred;
+    transition-duration: 0.5s;
+    box-shadow:0 0 1.5em darkred;
+}
+
+.nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.adm{
+    display: flex;
+    flex-direction: column;
+    margin-left: 0%;
+    padding: 15px;
+    padding-bottom: 5px;
+
+}
+
+.mov{
+    display: flex;
+    flex-direction: column;
+    margin-left: 0%;
+    padding: 15px;
+    padding-bottom: 5px;
+}
+
+a{
+    color: white;
+}
+
+.h{
+    text-decoration: none;
+    color: black;
+    
+}
+.u{
+    text-decoration: none;
+    color: black;
+}
+.m{
+    text-decoration: none;
+    color: black;
+}
+.co{
+     text-decoration: none;
+    color: black;
+}
+.ve{
+    text-decoration: none;
+    color: black;
+}
+.sair{
+    text-decoration: none;
+}
+
